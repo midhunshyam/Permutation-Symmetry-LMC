@@ -1,0 +1,16 @@
+# downloaded datasets
+data/
+
+# local working files, not part of the repository
+archive/
+
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+build/
+
+# outputs of the smoke-test protocol
+figures/*_smoke*.png
+results/mnist/*_smoke.*
